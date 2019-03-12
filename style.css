@@ -1,0 +1,156 @@
+/*
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h4 {
+    margin: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+
+}
+
+.content_area {
+
+
+}
+
+.title_main {
+    display: flex;
+}
+
+    .title_main img {
+        margin-left: 15px;
+    }
+
+.content_area {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.input {
+    border-radius: 30px;
+    width: 470px;
+    height: 60px;
+    background: #F0F4F7;
+    border: none;
+}
+
+.input::placeholder {
+    padding-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+}
+
+.left-section , .right-section {
+    max-width: 450px;
+}
+.left-section p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.right-section {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.icons {
+    /*margin-bottom: 50px;*/
+}
+
+.icons img {
+    margin-right: 10px;
+}
+
+.item {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item .title {
+    font-family: Gilroy;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: #902156;
+}
+
+.item h4 {
+    font-family: Gilroy;
+    line-height: normal;
+    font-size: 18px;
+    color: #313335;
+    padding-top: 5px;
+}
+
+.description_item {
+    padding-top: 20px;
+}
+
+.chose_section:after {
+    content: '\2807';
+    font-size: 22px;
+}
+
+
+/*font-family: Gilroy;*/
