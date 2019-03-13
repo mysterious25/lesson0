@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -12,7 +13,7 @@
                 <h1>Цукерочки</h1>
                 <img src="icons/candy.svg">
             </div>
-            <p>
+            <p class="description">
                 Дуже багато нових рішень та крутих фіч які економлять час та покращуюсь вашу роботу в десятки разів. Ласкаво просимо до ознайомлення. Немає часу на перегляд всього? Підпишись та отримуй найцікавіше в одному листі раз на тиждень.
             </p>
             <div class="title_main">
@@ -24,30 +25,31 @@
 
         <div class="right-section">
             <div class="icons">
-                <img src="icons/menu.svg">
-                <img src="icons/js.svg">
-                <img src="icons/linux.svg">
-                <img src="icons/css-3.svg">
-                <img src="icons/html-5.svg">
-                <img src="icons/ruby.svg">
-                <img src="icons/python.svg">
-                <img src="icons/ruby.svg">
-                <img src="icons/php.svg">
-                <img src="icons/android.svg">
-                <img src="icons/java.svg">
+                <span class="icon"><img src="icons/menu.svg"></span>
+                <span class="icon"><img src="icons/js.svg"></span>
+                <span class="icon"><img src="icons/linux.svg"></span>
+                <span class="icon"><img src="icons/css-3.svg"></span>
+                <span class="icon"><img src="icons/html-5.svg"></span>
+                <span class="icon"><img src="icons/ruby.svg"></span>
+                <span class="icon"><img src="icons/python.svg"></span>
+                <span class="icon"><img src="icons/ruby.svg"></span>
+                <span class="icon"><img src="icons/php.svg"></span>
+                <span class="icon"><img src="icons/android.svg"></span>
+                <span class="icon"><img src="icons/java.svg"></span>
             </div>
             <div class="section_framework">
                 <div class="item">
                     <div class="left_item">
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
-                        <p class="description_item">CSS фреймворк та директива GITHUB</p>
-                        <a href="#"><div class="link"></div></a>
+                        <div class="description_item">
+                            CSS фреймворк та директива GITHUB
+                        </div>
                     </div>
                     <div class="right_item">
                         <div class="chose_section">
-
                         </div>
+                        <div class="link"><a href="#">Link</a></div>
                     </div>
                 </div>
                 <div class="item">
@@ -55,12 +57,12 @@
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
                         <p class="description_item">CSS фреймворк та директива GITHUB</p>
-                        <a href="#"><div class="link"></div></a>
                     </div>
                     <div class="right_item">
                         <div class="chose_section">
 
                         </div>
+                        <div class="link"><a href="#">Link</a></div>
                     </div>
                 </div>
                 <div class="item">
@@ -68,12 +70,12 @@
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
                         <p class="description_item">CSS фреймворк та директива GITHUB</p>
-                        <a href="#"><div class="link"></div></a>
                     </div>
                     <div class="right_item">
                         <div class="chose_section">
 
                         </div>
+                        <div class="link"><a href="#">Link</a></div>
                     </div>
                 </div>
                 <div class="item">
@@ -81,17 +83,63 @@
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
                         <p class="description_item">CSS фреймворк та директива GITHUB</p>
-                        <a href="#"><div class="link"></div></a>
                     </div>
                     <div class="right_item">
                         <div class="chose_section">
-
                         </div>
+                        <div class="link"><a href="#">Link</a></div>
                     </div>
                 </div>
             </div>
-            <div class="all_items"></div>
+            <div class="all_items">
+                Всі 309 цукерочок
+            </div>
         </div>
+
     </div>
+    <footer class="footer">
+        <div class="ftr_center">
+            <ul>
+                <li class="ftr_title">Статті</li>
+                <li class="ftr_item">JavaScript</li>
+                <li class="ftr_item">Linux</li>
+                <li class="ftr_item">CSS</li>
+                <li class="ftr_item">HTML</li>
+                <li class="ftr_item">Python</li>
+                <li class="ftr_item">Ruby</li>
+                <li class="ftr_item">PHP</li>
+                <li class="ftr_item">Java</li>
+            </ul>
+            <ul>
+                <li class="ftr_title">Цукерочки</li>
+                <li class="ftr_item">JavaScript</li>
+                <li class="ftr_item">Linux</li>
+                <li class="ftr_item">CSS</li>
+                <li class="ftr_item">HTML</li>
+                <li class="ftr_item">Python</li>
+                <li class="ftr_item">Ruby</li>
+                <li class="ftr_item">PHP</li>
+                <li class="ftr_item">Java</li>
+            </ul>
+            <ul>
+                <li class="ftr_title">Новини</li>
+                <li class="ftr_item">Останні</li>
+                <li class="ftr_item">Популярні</li>
+                <li class="ftr_item">Дайджести</li>
+            </ul>
+            <ul>
+                <li class="ftr_title">Зв’язок з редакцією</li>
+                <li class="ftr_item">Загальні питання</li>
+                <li class="ftr_item"><a href="admin@codeguida.com">admin@codeguida.com</a></li>
+                <li class="ftr_item">Співпраця</li>
+                <li class="ftr_item"><a href="adv@codeguida.com">adv@codeguida.com</a></li>
+            </ul>
+            <ul>
+                <li class="ftr_title">Знайшли помилку?</li>
+                <li class="ftr_item">Знайшли помилку — виділіть в тексті фрагмент з помилкую та нитисніть Ctrl+Enter</li>
+                <li class="ftr_item"><a href="Ctrl+Enter">Ctrl+Enter</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
