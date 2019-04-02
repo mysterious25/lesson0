@@ -1,8 +1,17 @@
-/*
-v2.0 | 20110126
-License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, p, blockquote, pre,
+@font-face {
+    font-family: "GilroyBold";
+    src: url("fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -14,7 +23,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-
     margin: 0;
     padding: 0;
     border: 0;
@@ -22,44 +30,34 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-
-h4 {
-    margin: 0;
-}
-
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
 
-body {
-
+.left-section {
+    margin-left: 155px;
+    margin-top: 158px;
 }
 
 .content_area {
@@ -69,16 +67,37 @@ body {
 
 .title_main {
     display: flex;
+    font-size: 48px;
+    font-family: "GilroyBold", serif;
 }
 
     .title_main img {
         margin-left: 15px;
     }
 
+.sub-title {
+    margin-top: 28px;
+    font-size: 18px;
+}
+
+.sub-title-pic {
+    width: 18px;
+    height: 19px;
+}
+
+.title-pic {
+    width: 56px;
+    height: 50px;
+}
+
 .content_area {
     display: flex;
-    max-width: 1170px;
+    max-width: 1130px;
     margin: 0 auto;
+}
+
+label {
+    position: relative;
 }
 
 .input {
@@ -87,26 +106,50 @@ body {
     height: 60px;
     background: #F0F4F7;
     border: none;
+    margin-top: 20px;
 }
 
 .input::placeholder {
     padding-left: 15px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 14px;
+}
+.inputBtn {
+    position: absolute;
+    top: 7px;
+    right: 29px;
+}
+
+.circleIcon {
+    position: absolute;
+    top: -11;
+    right: 10px;
+    bottom: -16px;
+    background: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+}
+
+input[type="email"] {
+    padding: 0 0 5px 31px;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left-section , .right-section {
     max-width: 450px;
 }
 .left-section p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 24px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .section_framework {
@@ -114,44 +157,49 @@ body {
 }
 
     .section_framework .item {
-        padding-left: 50px;
+        padding-left: 25px;
     }
 
 .right-section {
-    margin-left: 110px;
-    margin-top: 20px;
+    margin-left: 136px;
+    margin-top: 118px;
+}
+.right_item {
+    margin-left: 80px;
 }
 
 .icon {
-    background: #A8B3C2;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 24px;
+    margin-left: 18px;
+    background: #F0F4F7;
 }
 
 .icons {
     width: 480px;
     border-bottom: 1px solid #F0F4F7;
     padding-bottom: 20px;
-}
-
-.icon {
-    margin-right: 10px;
+    display: flex;
 }
 
 .item {
     display: flex;
-    margin-top: 50px;
+    margin-top: 23px;
 }
 
 .item .title {
-    font-family: Gilroy;
-    line-height: normal;
-    font-size: 15px;
+    font-family: GilroyBold;
+    /* line-height: normal; */
+    font-size: 11px;
     letter-spacing: 0.1em;
     color: #902156;
+    font-size: 10px;
+    letter-spacing: 0.1em;
 }
 
+
 .item h4 {
-    font-family: Gilroy;
+    font-family: GilroyBold;
     line-height: normal;
     font-size: 18px;
     color: #313335;
@@ -161,18 +209,25 @@ body {
 .description_item {
     padding-top: 20px;
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.description {
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .chose_section {
     margin-left: 80px;
 }
 
-.icon {
-    border-radius: 30px;
-    width: 10px;
-    padding: 0px 6px 2px 6px;
-    background: #F0F4F7;
-}
+/*.icon {*/
+    /*border-radius: 30px;*/
+    /*width: 10px;*/
+    /*padding: 0px 6px 2px 6px;*/
+    /*background: #F0F4F7;*/
+/*}*/
 
 .chose_section:after {
     content: '\2807';
@@ -182,19 +237,21 @@ body {
 
 .link {
     background-color: white;
-    border: 2px solid #A8B3C2;
+    border: 2px solid #e2eaf0;
     border-radius: 21px;
-    width: 50px;
+    width: 76px;
     padding: 6px 15px 6px 15px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 26px;
+    margin-left: 14px;
 }
 
     .link a {
         text-decoration: none;
         color: #313335;
         font-weight: bold;
+        font-family: GilroyBold;
+        text-transform: uppercase;
     }
 
 .ftr_title {
@@ -223,11 +280,16 @@ body {
     display: flex;
     margin-top: 100px;
     height: 450px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ftr_title {
+    font-family: GilroyBold, serif;
 }
 
 .footer {
     background: #313335;
-
+    width: 1440px;
 }
 
 .footer ul li a {
@@ -242,6 +304,13 @@ body {
     width: 470px;
     color: #FFFFFF;
     cursor: pointer;
+    font-family: GilroyBold;
+    font-size: 14px;
+    border: none;
+}
+
+.item {
+    width: 505px;
 }
 
 @media (max-width: 320px) {
@@ -266,6 +335,10 @@ body {
 
     .title_main {
         display: block;
+    }
+
+    .title_main {
+        font-size: 48px;
     }
 
     .left-section {
