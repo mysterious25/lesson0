@@ -54,6 +54,16 @@ table {
     border-spacing: 0;
 }
 
+:root {
+    --green: #6bca3e;
+    --white: white;
+    --grey: #F0F4F7;
+    --grey2: #e2eaf0;
+    --grey3: #A8B3C2;
+    --grey4: #6e7680;
+    --pink: #902156;
+}
+
 
 .left-section {
     margin-top: 158px;
@@ -103,14 +113,14 @@ label {
     border-radius: 30px;
     width: 470px;
     height: 60px;
-    background: #F0F4F7;
+    background: var(--grey);
     border: none;
     margin-top: 20px;
     cursor: pointer;
 }
 
 .input:hover {
-    background-color: #e2eaf0;
+    background-color: var(--grey2);
 }
 
 .input::placeholder {
@@ -132,7 +142,7 @@ label {
     top: -11;
     right: 10px;
     bottom: -16px;
-    background: white;
+    background: var(--white);
     border: none;
     width: 45px;
     height: 45px;
@@ -141,7 +151,7 @@ label {
 }
 
 .circleIcon:hover {
-    border: 2px solid #6bca3e;
+    border: 2px solid var(--green);
 }
 
 input[type="email"] {
@@ -181,14 +191,14 @@ input[type="email"] {
     border-radius: 50%;
     width: 24px;
     margin-left: 18px;
-    background: #F0F4F7;
+    background: var(--grey);
     display: flex;
     justify-content: space-evenly;
 }
 
 .icon:hover {
-    border: 2px solid #6bca3e;
-    background: white;
+    border: 2px solid var(--green);
+    background: var(--white);
 }
 
 .icon:nth-child(3) a img {
@@ -197,7 +207,7 @@ input[type="email"] {
 
 .icons {
     width: 480px;
-    border-bottom: 1px solid #F0F4F7;
+    border-bottom: 1px solid var(--grey);
     padding-bottom: 20px;
     display: flex;
 }
@@ -208,18 +218,17 @@ input[type="email"] {
 }
 
 .item .title {
-    font-family: GilroyBold;
-    /* line-height: normal; */
+    font-family: GilroyBold, serif;
     font-size: 11px;
     letter-spacing: 0.1em;
-    color: #902156;
+    color: var(--pink);
     font-size: 10px;
     letter-spacing: 0.1em;
 }
 
 
 .item h4 {
-    font-family: GilroyBold;
+    font-family: GilroyBold, serif;
     line-height: normal;
     font-size: 18px;
     color: #313335;
@@ -256,8 +265,8 @@ input[type="email"] {
 }
 
 .link {
-    background-color: white;
-    border: 2px solid #e2eaf0;
+    background-color: var(--white);
+    border: 2px solid var(--grey2);
     border-radius: 21px;
     width: 76px;
     padding: 6px 15px 6px 15px;
@@ -270,18 +279,18 @@ input[type="email"] {
         text-decoration: none;
         color: #313335;
         font-weight: bold;
-        font-family: GilroyBold;
+        font-family: GilroyBold, serif;
         text-transform: uppercase;
         font-size: 10px;
     }
 
 .link:hover {
-    background-color: #e2eaf0;
+    background-color: var(--grey);
 }
 
 .ftr_title {
-    color: #FFFFFF;
-    font-family: Gilroy;
+    color: var(--grey2);
+    font-family: Gilroy, serif;
     line-height: normal;
     font-size: 14px;
     padding-right: 100px;
@@ -290,12 +299,12 @@ input[type="email"] {
 }
 
 .ftr_item {
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 12px;
-    color: #A8B3C2;
+    color: var(--grey3);
     padding-bottom: 10px;
 }
 
@@ -322,18 +331,18 @@ input[type="email"] {
 }
 
 .footer ul li a {
-    color: #6BCA3E;
+    color: var(--green);
 }
 
 .all_items {
-    background: #902156;
+    background: var(--pink);
     text-align: center;
     padding: 15px 20px 15px 20px;
     border-radius: 21px;
     width: 470px;
-    color: #FFFFFF;
+    color: var(--white);
     cursor: pointer;
-    font-family: GilroyBold;
+    font-family: GilroyBold, serif;
     font-size: 14px;
     border: none;
 }
@@ -345,7 +354,7 @@ input[type="email"] {
 .hr {
     border: none;
     height: 1px;
-    background-color: #f0f4f7;
+    background-color: var(--grey);
     width: 100%;
     margin-top: 10px;
 }
@@ -353,7 +362,7 @@ input[type="email"] {
 .footer-discleimer {
     text-align: center;
     font-family: "Roboto", sans-serif;
-    color: #6e7680;
+    color: var(--grey4);
     font-size: 11px;
     padding-bottom: 10px;
 }
