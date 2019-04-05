@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f28226-9b50-43d4-a82a-f784851de02d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -78,13 +76,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="538" />
+          <entry key="css" value="562" />
           <entry key="html" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="538" />
+          <entry key="CSS" value="562" />
           <entry key="HTML" value="306" />
         </counts>
       </usages-collector>
@@ -95,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="622">
+              <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
             </state>
           </provider>
         </entry>
@@ -148,10 +146,10 @@
       <find>circle</find>
       <find>ro</find>
       <find>.footer</find>
-      <find>left-se</find>
       <find>content_area</find>
       <find>footer</find>
       <find>.left-section</find>
+      <find>left-se</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,12 +236,12 @@
       <workItem from="1552425560478" duration="6678000" />
       <workItem from="1552469233088" duration="13418000" />
       <workItem from="1554228145227" duration="10772000" />
-      <workItem from="1554487617076" duration="2233000" />
+      <workItem from="1554487617076" duration="2981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33101000" />
+    <option name="totallyTimeSpent" value="33849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1177" height="1407" extended-state="0" />
@@ -277,15 +275,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="622">
+          <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
         </state>
       </provider>
     </entry>

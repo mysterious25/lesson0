@@ -265,6 +265,10 @@ input[type="email"] {
         text-transform: uppercase;
     }
 
+.link:hover {
+    background-color: #e2eaf0;
+}
+
 .ftr_title {
     color: #FFFFFF;
     font-family: Gilroy;
