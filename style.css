@@ -186,6 +186,15 @@ input[type="email"] {
     justify-content: space-evenly;
 }
 
+.icon:hover {
+    border: 2px solid #6bca3e;
+    background: white;
+}
+
+.icon:nth-child(3) a img {
+    width: 14px;
+}
+
 .icons {
     width: 480px;
     border-bottom: 1px solid #F0F4F7;
