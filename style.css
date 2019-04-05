@@ -272,6 +272,7 @@ input[type="email"] {
         font-weight: bold;
         font-family: GilroyBold;
         text-transform: uppercase;
+        font-size: 10px;
     }
 
 .link:hover {
