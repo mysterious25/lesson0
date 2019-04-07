@@ -124,17 +124,35 @@ label {
 }
 
 .input::placeholder {
-    padding-left: 15px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 14px;
 }
+
+.input:focus:valid {
+    border: 2px solid var(--green);
+    outline: none;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.input .circleIcon:focus {
+    outline: none;
+    box-sizing: border-box;
+    background: var(--green);
+    transition: 0.3s;
+}
+
+.input:focus:valid + .circleIcon {
+    border: 2px solid var(--green);
+}
+
 .inputBtn {
     position: absolute;
-    top: 7px;
-    right: 29px;
+    top: 16px;
+    right: 18px;
 }
 
 .circleIcon {
@@ -143,11 +161,11 @@ label {
     right: 10px;
     bottom: -16px;
     background: var(--white);
-    border: none;
     width: 45px;
     height: 45px;
     border-radius: 22px;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .circleIcon:hover {
@@ -161,7 +179,7 @@ input[type="email"] {
 }
 
 .left-section , .right-section {
-    max-width: 450px;
+    max-width: 455px;
 }
 .left-section p {
     font-family: 'Roboto', sans-serif;
@@ -190,10 +208,19 @@ input[type="email"] {
 .icon {
     border-radius: 50%;
     width: 24px;
+    height: 24px;
     margin-left: 18px;
     background: var(--grey);
     display: flex;
     justify-content: space-evenly;
+}
+
+.listLink {
+    display: flex;
+}
+
+.img {
+    margin: auto;
 }
 
 .icon:hover {
