@@ -122,7 +122,8 @@
   border: 2px solid transparent;
 }
 
-.left-section, .right-section {
+.left-section,
+.right-section {
   max-width: 455px;
 }
 
@@ -169,7 +170,6 @@
   background-color: var(--grey2);
 }
 
-
 .icon:active {
   border: 2px solid var(--green);
   transition: 0.1ms;
@@ -196,9 +196,7 @@
   font-size: 12px;
   letter-spacing: 0.1em;
   color: var(--pink);
-  letter-spacing: 0.1em;
 }
-
 
 .item h4 {
   font-family: GilroyBold, serif;
@@ -227,7 +225,7 @@
 }
 
 .chose_section:after {
-  content: '\2807';
+  content: "\2807";
   font-size: 22px;
   cursor: pointer;
 }
@@ -239,7 +237,7 @@
   border-radius: 21px;
   width: 76px;
   height: 28px;
-  padding: 6px 15px 6px 15px;
+  padding: 6px 15px;
   text-align: center;
   margin-top: 30px;
   margin-left: 30px;
@@ -316,7 +314,7 @@
 .all_items {
   background: var(--pink);
   text-align: center;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 20px;
   border-radius: 21px;
   width: 450px;
   color: var(--white);
@@ -357,7 +355,7 @@
   }
 
   .description_item {
-    width: 425px
+    width: 425px;
   }
 
   .item .title {
