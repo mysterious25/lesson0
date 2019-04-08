@@ -175,7 +175,7 @@ label {
     border: 2px solid var(--green);
 }
 
-input[type="email"] {
+.input[type="email"] {
     padding: 0 0 5px 31px;
     letter-spacing: 0.5px;
     font-family: var(--roboto);
