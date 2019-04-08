@@ -54,7 +54,7 @@
     margin: 0 auto;
 }
 
-label {
+.label {
     position: relative;
 }
 
@@ -255,6 +255,7 @@ label {
 
 .link:hover {
     background-color: var(--grey);
+    border-color: var(--green);
 }
 
 .ftr_title {
@@ -305,6 +306,7 @@ label {
 
 .footer ul li a {
     color: var(--green);
+    text-decoration: none;
 }
 
 .all_items {
@@ -318,6 +320,11 @@ label {
     font-family: var(--gilroy);
     font-size: 14px;
     border: none;
+}
+
+.all_items:hover {
+    background-color: #ae2968;
+    transition: 0.3s;
 }
 
 .item {
