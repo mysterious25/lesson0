@@ -1,6 +1,13 @@
-https://mysterious25.github.io/lesson0/
+# Project Name
 
-Candys
+### [Demo](https://link-to-github-pages.com)
 
-HTML
-CSS
+### Description
+
+Tell about your project
+
+### Technologies are used
+
+- HTML
+- CSS
+- ...
