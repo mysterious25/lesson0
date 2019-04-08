@@ -125,6 +125,7 @@
     padding: 0 0 5px 31px;
     letter-spacing: 0.5px;
     font-family: var(--roboto);
+    border: 2px solid transparent;
 }
 
 .left-section , .right-section {
@@ -169,8 +170,13 @@
 }
 
 .icon:hover {
+    background-color: var(--grey2);
+}
+
+
+.icon:active {
     border: 2px solid var(--green);
-    background: var(--white);
+    transition: 0.1ms;
 }
 
 .icon:nth-child(3) a img {
@@ -258,13 +264,16 @@
     border-color: var(--green);
 }
 
+.ftr_column {
+    padding-top: 200px;
+}
+
 .ftr_title {
     color: var(--grey2);
     font-family: var(--gilroy);
     line-height: normal;
     font-size: 14px;
     padding-right: 100px;
-    padding-top: 200px;
     padding-bottom: 15px;
 }
 
@@ -288,11 +297,10 @@
 }
 
 .ftr_center ul{
-    /*padding-right: 21px;*/
-    padding-top: 64px;
+    padding-top: 20px;
 }
 
-.ftr_center ul:last-of-type {
+.ftr_column:last-of-type {
     flex-shrink: 0;
 }
 

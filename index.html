@@ -30,7 +30,7 @@
 
         <section class="right-section">
             <ul  class="icons">
-                <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/menu.svg" alt=""></a></li>
+                <li class="icon icon1"><a class="listLink" href="#" ><img class="img" src="icons/menu.svg" alt=""></a></li>
                 <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/js.svg" alt=""></a></li>
                 <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/linux.svg" alt=""></a></li>
                 <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/css-3.svg" alt=""></a></li>
@@ -42,8 +42,8 @@
                 <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/android.svg" alt=""></a></li>
                 <li class="icon"><a class="listLink" href="#" ><img class="img" src="icons/java.svg" alt=""></a></li>
             </ul>
-            <div class="section_framework">
-                <div class="item">
+            <ul class="section_framework">
+                <li class="item">
                     <div class="left_item">
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
@@ -55,9 +55,9 @@
                         </div>
                         <div class="link"><a href="#">Link</a></div>
                     </div>
-                </div>
+                </li>
                 <hr class="hr">
-                <div class="item">
+                <li class="item">
                     <div class="left_item">
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
@@ -69,9 +69,9 @@
                         </div>
                         <div class="link"><a href="#">Link</a></div>
                     </div>
-                </div>
+                </li>
                 <hr class="hr">
-                <div class="item">
+                <li class="item">
                     <div class="left_item">
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
@@ -83,9 +83,9 @@
                         </div>
                         <div class="link"><a href="#">Link</a></div>
                     </div>
-                </div>
+                </li>
                 <hr class="hr">
-                <div class="item">
+                <li class="item">
                     <div class="left_item">
                         <p class="title">#Javascript</p>
                         <h4>Moeditor</h4>
@@ -96,9 +96,9 @@
                         </div>
                         <div class="link"><a href="#">Link</a></div>
                     </div>
-                </div>
+                </li>
                 <hr class="hr">
-            </div>
+            </ul>
             <button class="all_items">
                 Всі 309 цукерочок
             </button>
@@ -107,46 +107,57 @@
     </div>
     <footer class="footer">
         <div class="ftr_center">
-            <ul>
-                <li class="ftr_title">Статті</li>
-                <li class="ftr_item">JavaScript</li>
-                <li class="ftr_item">Linux</li>
-                <li class="ftr_item">CSS</li>
-                <li class="ftr_item">HTML</li>
-                <li class="ftr_item">Python</li>
-                <li class="ftr_item">Ruby</li>
-                <li class="ftr_item">PHP</li>
-                <li class="ftr_item">Java</li>
-            </ul>
-            <ul>
-                <li class="ftr_title">Цукерочки</li>
-                <li class="ftr_item">JavaScript</li>
-                <li class="ftr_item">Linux</li>
-                <li class="ftr_item">CSS</li>
-                <li class="ftr_item">HTML</li>
-                <li class="ftr_item">Python</li>
-                <li class="ftr_item">Ruby</li>
-                <li class="ftr_item">PHP</li>
-                <li class="ftr_item">Java</li>
-            </ul>
-            <ul>
-                <li class="ftr_title">Новини</li>
-                <li class="ftr_item">Останні</li>
-                <li class="ftr_item">Популярні</li>
-                <li class="ftr_item">Дайджести</li>
-            </ul>
-            <ul>
-                <li class="ftr_title">Зв’язок з редакцією</li>
-                <li class="ftr_item">Загальні питання</li>
-                <li class="ftr_item"><a href="admin@codeguida.com">admin@codeguida.com</a></li>
-                <li class="ftr_item">Співпраця</li>
-                <li class="ftr_item"><a href="adv@codeguida.com">adv@codeguida.com</a></li>
-            </ul>
-            <ul>
-                <li class="ftr_title">Знайшли помилку?</li>
-                <li class="ftr_item">Знайшли помилку — виділіть в тексті фрагмент з помилкую та нитисніть Ctrl+Enter</li>
-                <li class="ftr_item"><a href="Ctrl+Enter">Ctrl+Enter</a></li>
-            </ul>
+            <div class="ftr_column">
+                <span class="ftr_title">Статті</span>
+                <ul class="ftr_list">
+
+                    <li class="ftr_item">JavaScript</li>
+                    <li class="ftr_item">Linux</li>
+                    <li class="ftr_item">CSS</li>
+                    <li class="ftr_item">HTML</li>
+                    <li class="ftr_item">Python</li>
+                    <li class="ftr_item">Ruby</li>
+                    <li class="ftr_item">PHP</li>
+                    <li class="ftr_item">Java</li>
+                </ul>
+            </div>
+            <div class="ftr_column">
+                <span class="ftr_title">Цукерочки</span>
+                <ul class="ftr_list">
+                    <li class="ftr_item">JavaScript</li>
+                    <li class="ftr_item">Linux</li>
+                    <li class="ftr_item">CSS</li>
+                    <li class="ftr_item">HTML</li>
+                    <li class="ftr_item">Python</li>
+                    <li class="ftr_item">Ruby</li>
+                    <li class="ftr_item">PHP</li>
+                    <li class="ftr_item">Java</li>
+                </ul>
+            </div>
+            <div class="ftr_column">
+                <span class="ftr_title">Новини</span>
+                <ul class="ftr_list">
+                    <li class="ftr_item">Останні</li>
+                    <li class="ftr_item">Популярні</li>
+                    <li class="ftr_item">Дайджести</li>
+                </ul>
+            </div>
+            <div class="ftr_column">
+                <span class="ftr_title">Зв’язок з редакцією</span>
+                <ul class="ftr_list">
+                    <li class="ftr_item">Загальні питання</li>
+                    <li class="ftr_item"><a href="admin@codeguida.com">admin@codeguida.com</a></li>
+                    <li class="ftr_item">Співпраця</li>
+                    <li class="ftr_item"><a href="adv@codeguida.com">adv@codeguida.com</a></li>
+                </ul>
+            </div>
+            <div class="ftr_column">
+                <span class="ftr_title">Знайшли помилку?</span>
+                <ul class="ftr_list">
+                    <li class="ftr_item">Знайшли помилку — виділіть в тексті фрагмент з помилкую та нитисніть Ctrl+Enter</li>
+                    <li class="ftr_item"><a href="Ctrl+Enter">Ctrl+Enter</a></li>
+                </ul>
+            </div>
         </div>
         <div class="footer-discleimer">© 2019 Codeguida.com. При використанні матеріалів зворотнє посилання на сайт обов'язкове</div>
     </footer>
