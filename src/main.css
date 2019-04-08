@@ -1,5 +1,12 @@
 @import url("reset.css");
 
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 :root {
   --green: #6bca3e;
   --white: white;
@@ -330,7 +337,10 @@
 }
 
 .item {
-  width: 505px;
+  width: 100%;
+  border-bottom: 1px solid var(--grey);
+  padding-top: 26px;
+  padding-bottom: 25px;
 }
 
 .hr {
