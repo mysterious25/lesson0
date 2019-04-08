@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10f28226-9b50-43d4-a82a-f784851de02d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/1440.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/1440.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/android.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/android.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/candy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/candy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/candy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/candy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/candy2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/candy2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/css-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/css-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/fire.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/fire.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/html-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/html-5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/input_btn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/input_btn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/java.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/java.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/js.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/linux.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/linux.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/php.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/php.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/python.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/python.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/ruby.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ruby.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,33 +14,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2060733234">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="145" column="38" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="316" column="20" selection-start-line="316" selection-start-column="20" selection-end-line="316" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.stylelintrc">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -65,6 +40,37 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="14" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="127" column="15" lean-forward="true" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="159" column="10" lean-forward="true" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
+              <folding>
+                <element signature="e#5707#5713#0" expanded="true" />
+                <element signature="e#5714#5720#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,11 +128,17 @@
         <option value="$PROJECT_DIR$/reset.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/reset.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -189,8 +201,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint:css">
-    <configuration name="copy:htmllint-config" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.lint:html">
+    <configuration name="copy:htmllint-config" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -200,7 +212,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="lint:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="lint:css" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -210,7 +222,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="lint:html" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="lint:html" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -220,7 +232,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="validate:html" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="validate:html" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -230,10 +242,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.copy:htmllint-config" />
+      <item itemvalue="npm.lint:css" />
+      <item itemvalue="npm.lint:html" />
+      <item itemvalue="npm.validate:html" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint:css" />
         <item itemvalue="npm.lint:html" />
+        <item itemvalue="npm.lint:css" />
         <item itemvalue="npm.validate:html" />
         <item itemvalue="npm.copy:htmllint-config" />
       </list>
@@ -259,13 +277,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50562000" />
+    <option name="totallyTimeSpent" value="50761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="7" y="0" width="1178" height="1408" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3733567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,7 +295,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4248366" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42426646" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -288,20 +306,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="155" column="16" lean-forward="true" selection-end-line="405" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -311,22 +317,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="316" column="20" selection-start-line="316" selection-start-column="20" selection-end-line="316" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        <state relative-caret-position="320">
+          <caret line="127" column="15" lean-forward="true" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="145" column="38" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
+        <state relative-caret-position="447">
+          <caret line="159" column="10" lean-forward="true" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
+          <folding>
+            <element signature="e#5707#5713#0" expanded="true" />
+            <element signature="e#5714#5720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
