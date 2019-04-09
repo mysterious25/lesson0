@@ -1,5 +1,12 @@
 @import url("reset.css");
 
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 :root {
   --green: #6bca3e;
   --white: white;
@@ -14,11 +21,6 @@
 
 .left-section {
   margin-top: 158px;
-}
-
-.content_area {
-
-
 }
 
 .title_main {
@@ -127,9 +129,11 @@
   border: 2px solid transparent;
 }
 
-.left-section , .right-section {
+.left-section,
+.right-section {
   max-width: 455px;
 }
+
 .left-section p {
   font-family: var(--roboto);
   font-style: normal;
@@ -146,6 +150,7 @@
   margin-left: 136px;
   margin-top: 118px;
 }
+
 .right_item {
   margin-left: 80px;
 }
@@ -171,7 +176,6 @@
 .icon:hover {
   background-color: var(--grey2);
 }
-
 
 .icon:active {
   border: 2px solid var(--green);
@@ -199,9 +203,7 @@
   font-size: 12px;
   letter-spacing: 0.1em;
   color: var(--pink);
-  letter-spacing: 0.1em;
 }
-
 
 .item h4 {
   font-family: GilroyBold, serif;
@@ -230,7 +232,7 @@
 }
 
 .chose_section:after {
-  content: '\2807';
+  content: "\2807";
   font-size: 22px;
   cursor: pointer;
 }
@@ -242,7 +244,7 @@
   border-radius: 21px;
   width: 76px;
   height: 28px;
-  padding: 6px 15px 6px 15px;
+  padding: 6px 15px;
   text-align: center;
   margin-top: 30px;
   margin-left: 30px;
@@ -272,7 +274,7 @@
   font-family: var(--gilroy);
   line-height: normal;
   font-size: 14px;
-  padding-right: 100px;
+  padding-right: 93px;
   padding-bottom: 15px;
 }
 
@@ -295,7 +297,7 @@
   padding-bottom: 55px;
 }
 
-.ftr_center ul{
+.ftr_center ul {
   padding-top: 20px;
 }
 
@@ -319,7 +321,7 @@
 .all_items {
   background: var(--pink);
   text-align: center;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 20px;
   border-radius: 21px;
   width: 450px;
   color: var(--white);
@@ -335,7 +337,10 @@
 }
 
 .item {
-  width: 505px;
+  width: 100%;
+  border-bottom: 1px solid var(--grey);
+  padding-top: 26px;
+  padding-bottom: 25px;
 }
 
 .hr {
@@ -352,53 +357,4 @@
   color: var(--grey4);
   font-size: 11px;
   padding-bottom: 10px;
-}
-
-@media (max-width: 320px) {
-  .description {
-    display: none;
-  }
-
-  .description_item {
-    width: 425px
-  }
-
-  .item .title {
-    font-size: 27px;
-  }
-
-  .content_area {
-    display: block;
-  }
-  .footer {
-    width: 768px;
-  }
-
-  .title_main {
-    display: block;
-  }
-
-  .title_main {
-    font-size: 48px;
-  }
-
-  .title_main {
-    padding-left: 70px;
-    font-size: 30px;
-  }
-
-  .title_main img {
-    height: 60px;
-    padding-left: 90px;
-  }
-
-  .input::placeholder {
-    font-size: 25px;
-    padding-top: 10px;
-    margin-top: 10px;
-  }
-
-  .icons {
-    display: none;
-  }
 }
